@@ -12,3 +12,19 @@ y = 5
 print(x > 5 and y < 10)
 print(x < 5 or y < 10)
 print(not(x > 5))
+
+#Real-life use of booleans
+#Vote process
+age = 20
+
+if age >= 18:
+    print("You can vote")
+
+#Authentication
+
+password = "abc123"
+
+if password == "abc123":
+    print("Access granted")
+else:
+    print("Access denied")
