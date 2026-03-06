@@ -1,7 +1,7 @@
 print("Hello, World!")
 
 name = "Eunice"
-age = 15
+age = 17
 
 # f-strings let you plug variables right into text
 print(f"My name is {name} and I am {age} years old.")
@@ -60,7 +60,6 @@ print(string.strip())
 print(string.replace("M","H"))
 
 #Escape Characters
-
 print('She said: "I was mad"') #USING DIFFERENT QUOTES
 
 # \', \", \\, \n, \b, \t, \a
