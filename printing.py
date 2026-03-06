@@ -28,7 +28,7 @@ age = 16
 print("Hi",name,"!")
 
 print("I am",name,"and I am",age,"years old!")
-
+print(f"My name is {name} and I am {age}")
 #Length of the string
 
 print(len(name))
@@ -45,3 +45,28 @@ print(name[:4]) #From the start index to 4
 print(name[6:]) # From 6 to the end
 print(name[-7:-1]) # From the back, -1 is the last index
 print(name[::-1]) #Reverse string
+
+#Modification of strings
+
+print(name.upper())
+print(name.lower())
+
+string = "     Muahaha"
+
+print(string)
+print(string.strip())
+
+
+print(string.replace("M","H"))
+
+#Escape Characters
+
+print('She said: "I was mad"') #USING DIFFERENT QUOTES
+
+# \', \", \\, \n, \b, \t, \a
+
+print("I am\nEunice")
+print("I deleted the last\b")
+print("\a I may make a sound")
+print("\"My dog is whaaat\"")
+print('It\'s just another normal day')
