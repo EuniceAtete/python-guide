@@ -70,3 +70,14 @@ print("I deleted the last\b")
 print("\a I may make a sound")
 print("\"My dog is whaaat\"")
 print('It\'s just another normal day')
+
+#Methods
+
+print(string.upper())
+print(string.lower)
+print(string.casefold())#lower but stronger
+print(string.title())
+print(string.istitle())#Starts with capital
+string3 = 5
+print(string3.zfill())# Add zeros ar the beginning
+
