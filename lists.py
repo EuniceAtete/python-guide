@@ -30,3 +30,11 @@ print(numbers)
 
 numbers.insert(1, 99)  # Insert at position
 print(numbers)
+
+#Removing items
+
+numbers.remove(99)  # Remove specific value
+print(numbers)
+
+numbers.pop()       # Remove last item
+print(numbers)
