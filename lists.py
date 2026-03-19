@@ -38,3 +38,25 @@ print(numbers)
 
 numbers.pop()       # Remove last item
 print(numbers)
+
+
+# Looping Through a List
+
+
+for num in numbers:
+    print(num)
+
+
+
+# List Length
+
+
+print("Length:", len(numbers))
+
+
+
+# Checking if Item Exists
+
+
+if 3 in numbers:
+    print("3 is in the list")
