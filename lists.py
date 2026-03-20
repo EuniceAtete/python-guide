@@ -57,6 +57,5 @@ print("Length:", len(numbers))
 
 # Checking if Item Exists
 
-
 if 3 in numbers:
     print("3 is in the list")
