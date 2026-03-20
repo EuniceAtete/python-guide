@@ -36,3 +36,18 @@ print(student)
 # Remove last inserted item
 student.popitem()
 print(student)
+
+
+# Looping Through a Dictionary
+
+# Loop through keys
+for key in student:
+    print(key)
+
+# Loop through values
+for value in student.values():
+    print(value)
+
+# Loop through key-value pairs
+for key, value in student.items():
+    print(key, ":", value)
