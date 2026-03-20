@@ -25,7 +25,7 @@ print(student)
 
 # Adding New Items
 
-student["email"] = "eunice@example.com"
+student["email"] = "awet@rca.ac.rw"
 print(student)
 
 # Removing Items
@@ -51,3 +51,14 @@ for value in student.values():
 # Loop through key-value pairs
 for key, value in student.items():
     print(key, ":", value)
+
+
+# Dictionary Length
+
+print("Length:", len(student))
+
+# Checking if Key Exists
+
+if "name" in student:
+    print("Name exists in dictionary")
+    
