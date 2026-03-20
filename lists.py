@@ -59,3 +59,11 @@ print("Length:", len(numbers))
 
 if 3 in numbers:
     print("3 is in the list")
+
+# Combining Lists
+
+list1 = [1, 2]
+list2 = [3, 4]
+
+combined = list1 + list2
+print(combined)
