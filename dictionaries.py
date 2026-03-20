@@ -8,3 +8,12 @@ student = {
 }
 
 print(student)
+
+
+# Accessing Values
+
+print(student["name"])
+print(student["age"])
+
+# Using get()
+print(student.get("course"))
