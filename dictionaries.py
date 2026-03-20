@@ -17,3 +17,13 @@ print(student["age"])
 
 # Using get()
 print(student.get("course"))
+
+# Changing Values
+
+student["age"] = 19
+print(student)
+
+# Adding New Items
+
+student["email"] = "eunice@example.com"
+print(student)
