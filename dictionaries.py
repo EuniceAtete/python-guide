@@ -27,3 +27,12 @@ print(student)
 
 student["email"] = "eunice@example.com"
 print(student)
+
+# Removing Items
+
+student.pop("email")   # Removes by key
+print(student)
+
+# Remove last inserted item
+student.popitem()
+print(student)
