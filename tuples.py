@@ -6,5 +6,6 @@ print(my_tuple)
 print(my_tuple[0])
 print(my_tuple[-1])
 
+#Traversing a tuple
 for item in my_tuple:
     print(item)
