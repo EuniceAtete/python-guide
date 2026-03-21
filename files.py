@@ -12,3 +12,12 @@ fileContent = file.read()
 print("File Content:\n")
 print(fileContent)
 file.close()
+
+# Appending to a File
+
+file = open("example.txt", "a")
+file.write("\nThis line was appended.")
+file.close()
+
+print("\nContent appended.")
+
