@@ -15,7 +15,7 @@ file.close()
 
 # Appending to a File
 
-file = open("example.txt", "a")
+file = open("file.txt", "a")
 file.write("\nThis line was appended.")
 file.close()
 
