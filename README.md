@@ -5,7 +5,7 @@ A beginner-friendly guide to learning Python with simple explanations and practi
 ## What's Inside
 
 - Python basics (variables, loops, functions)
-- Data structures (lists, dicts, sets)
+- Data structures (lists, dicts, sets,tuples)
 - Object-oriented programming
 - File handling & error handling
 - Mini projects and exercises
