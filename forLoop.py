@@ -1,3 +1,4 @@
+#Using for to loop
 for i in range(6):
       print(i) #Output is 0,1,2,3,4,5
 
