@@ -9,3 +9,8 @@ my_set.add(5)
 
 # Removing items
 my_set.remove(2)
+
+#Traversing through a set
+
+for item in my_set:
+    print(item)
