@@ -28,3 +28,14 @@ if password == "abc123":
     print("Access granted")
 else:
     print("Access denied")
+
+
+d = True
+e = False
+z = None
+
+print(d, e, z)
+
+# Boolean in conditions
+if d:
+    print("d is True")
