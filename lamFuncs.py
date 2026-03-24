@@ -4,4 +4,4 @@ def favorite_foods(*foods):
         print("-", food)
 
 favorite_foods("Pizza", "Sushi", "Ice Cream")
-favorite_foods("Banana", "Avocado")
+favorite_foods("Banana", "Avocado","Fish")
