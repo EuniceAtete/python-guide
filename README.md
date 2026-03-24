@@ -19,6 +19,9 @@ python your_file.py
 ```
 
 > Requires Python 3.8+
+## Progress
+
+Functions, Variables, Lists, Directories
 
 ## Contributing
 
