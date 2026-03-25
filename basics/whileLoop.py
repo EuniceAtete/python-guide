@@ -13,3 +13,8 @@ while command != "exit":
     command = input("Type 'exit' to stop: ")
 
 print("Loop ended")
+
+#ATTENTION
+
+while True:
+    print("Oops")  # runs forever
