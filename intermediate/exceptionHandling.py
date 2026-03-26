@@ -41,3 +41,13 @@ try:
     num= int(input("Enter a number: "))
 except(ValueError,ZeroDivisionError):
     print("Invalid input or division by zero")
+
+# Raising exceptions
+print("\n Manual Raise")
+
+age = int(input("Enter your age: "))
+
+if age < 0:
+    raise ValueError("Age cannot be negative!")
+
+print("Your age is:", age)
