@@ -20,3 +20,15 @@ except ValueError:
 
 except ZeroDivisionError:
     print("You cannot divide by zero.")
+
+# Using else
+
+print("Else and Try")
+
+try:
+    num = int(input("Enter a number: "))
+    result = 10/num
+except Exception as err:
+    print("Error: ",err) 
+else:
+    print("The operation was successful.")       
