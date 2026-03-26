@@ -31,4 +31,13 @@ try:
 except Exception as err:
     print("Error: ",err) 
 else:
-    print("The operation was successful.")       
+    print("The operation was successful.")
+
+#  Multiple exceptions
+
+print("Multiple Exceptions")
+
+try:
+    num= int(input("Enter a number: "))
+except(ValueError,ZeroDivisionError):
+    print("Invalid input or division by zero")
